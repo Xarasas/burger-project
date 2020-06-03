@@ -46,10 +46,20 @@
         <div class="main-promo__glow-img"></div>
     </section>
     <section class="burgerCards">
-        <div class="burgerCard_left"></div>
+        <div class="burgerCard_left">
+            <p class="burgerCards__title burgerCard_left__text">try it today</p>
+            <p class="burgerCards__subtitle burgerCard_left__text">most popular burger</p>
+        </div>
         <div class="burgerCard_right">
-            <div class="burgerCard_top"></div>
-            <div class="burgerCard_bottom"></div>
+            <div class="burgerCard_top">
+                <p class="burgerCards__title burgerCard_right__text">try it today</p>
+                <p class="burgerCards__subtitle burgerCard_right__text">more fun</p>
+                <p class="burgerCards__subtitle burgerCard_right__text">more tase</p>
+            </div>
+            <div class="burgerCard_bottom">
+                <p class="burgerCards__title burgerCard_right__text">try it today</p>
+                <p class="burgerCards__subtitle burgerCard_right__text">fresh & chili</p>
+            </div>
         </div>
         <button class="burgerCards__button">
             Always Tasty Burger
@@ -77,8 +87,65 @@
             <button class="burgerInformation__tile-button">Order Now</button>
         </div>
     </section>
-    <section class="discover"></section>
-    <section class="reservation"></section>
-    <section class="footer"></section>
+    <section class="discover">
+        <div class="discover_left">
+            <h2 class="discover__title">discover</h2>
+            <h3 class="discover__subtitle">upcoming events</h3>
+            <p class="discover__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            <button class="discover__button"></button>
+            <button class="discover__button"></button>
+            <button class="discover__button"></button>
+        </div>
+        <div class="discover_right">
+            <img class="discover__img" src="/images/section-D-eventsBurger.jpg" alt="discover burger img">
+        </div>
+    </section>
+    <section class="reservation">
+        <h2 class="reservation__title">reservation</h2>
+        <h3 class="reservation__subtitle">book your table</h3>
+        <form class="reservation__form">
+            <label for="name"></label>
+            <input class="reservation__form__input" type="text" id="name" name="name" placeholder="NAME">
+            <label for="email"></label>
+            <input class="reservation__form__input" type="email" id="email" name="email" placeholder="EMAIL"><br>
+            <label for="date"></label>
+            <input class="reservation__form__input" type="date" id="date" name="date" placeholder="DATE">
+            <label for="time"></label>
+            <input class="reservation__form__input" type="time" id="time" name="time" placeholder="TIME"><br>
+            <label for="people"></label>
+            <input class="reservation__form__input" type="number" id="people" name="people" placeholder="PEOPLE">
+            <label for="submit"></label>
+            <input class="reservation__form__input" type="submit" value="find a table">
+        </form>
+        <img class="reservation__burger-img" src="/images/section-E-burgerTopView.png" alt="top-view-burger">
+        <img class="reservation__hotsauce-img" src="/images/section-E-hotSauce.png" alt="hot-sauce-img">
+        <img class="reservation__burgerplate-img" src="/images/section-E-burgerPlateTopView.png" alt="burger plate top view img">
+    </section>
+    <section class="footer">
+        <div class="footer__background-container">
+            <footer class="footer__info">
+                <div class="footer__container__left">
+                    <div class="footer__logo">
+                        <img class="footer__logo__img" src="/icons/fast-food.svg" alt="burger logo">
+                        <h2 class="footer__logo__text">burger house</h2>
+                    </div>
+                    <p class="footer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viver ra maecenas accumsan lacus vel facilisis. </p>
+                    <p class="footer__copyright">company name 2020. all rights reserved.</p>
+                </div>
+                <div class="footer__container__right">
+                    <img class="footer__location-img" src="/icons/location.svg" alt="location pin img">
+                    <p class="footer__location__text">main road, building name, country</p><br>
+                    <img class="footer_email-img" src="/icons/email.svg" alt="email icon">
+                    <p class="footer__email__text"><a href="mailto: info@company.com">info@company.com</p></a>
+                    <div class="footer__social-media">
+                        <a href="#"><img class="footer__social-media__icons" src="/icons/instagram.svg" alt=""></a>
+                        <a href="#"><img class="footer__social-media__icons" src="/icons/facebook.svg" alt=""></a>
+                        <a href="#"><img class="footer__social-media__icons" src="/icons/twitter.svg" alt=""></a>
+                        <a href="#"><img class="footer__social-media__icons" src="/icons/whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
 </body>
 </html>

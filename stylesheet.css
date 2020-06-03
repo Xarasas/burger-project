@@ -8,8 +8,6 @@
 
 body {
     font-family: 'Bebas Neue', cursive;
-  /*  font-family: 'Montserrat', sans-serif; */
-  /*  font-family: 'Alfa Slab One', cursive; */
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -24,12 +22,12 @@ a:link{
     color: #42200b; 
 }
 
-a:hover{
-    color: white;
-}
-
 a:visited {
     color: #42200b;
+}
+
+a:hover{
+    color: white;
 }
 
 /* Main Promotion Section Design */
@@ -174,6 +172,7 @@ a:visited {
     color: #ffffff;
     font-size: 70px;
     line-height: 38px;
+    margin-top: 7px;
 }
 
 .price-circle__cent {
@@ -245,6 +244,7 @@ a:visited {
     height: 420px;
     display: inline-block;
     margin-left: 42px;
+    vertical-align: top;
 }
 
 .burgerCard_top {
@@ -277,6 +277,27 @@ a:visited {
     outline: none;
 }
 
+.burgerCards__title {
+    color: white;
+    font-size: 25px;
+    line-height: 37.5px;
+    padding-top: 30px;
+}
+
+.burgerCards__subtitle {
+    color: white;
+    font-size: 41.7px;
+    line-height: 37.5px;
+}
+
+.burgerCard_right__text{
+    margin-left: 29px;
+}
+
+.burgerCard_left__text {
+    margin-left: 24px;
+}
+
 .burgerCards__button:hover {
     cursor: pointer;
     color:  #ffffff;
@@ -299,10 +320,13 @@ a:visited {
     font-family: 'Montserrat', sans-serif;
     font-size: 16.7px;
     text-align: center;
+    width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .burgerInformation__tile {
-    height: 524px;
+    height: 491px;
     width: 342px;
     display: inline-block;
     margin-top: 100px;
@@ -339,6 +363,7 @@ a:visited {
     outline: none;
     font-family: 'Alfa Slab One', cursive;
     font-size: 16.7px;
+    text-transform: uppercase;
 }
 
 .burgerInformation__tile-button:hover {
@@ -346,4 +371,275 @@ a:visited {
     color: #df1c1c;
     background-color: #ffffff;
     border: 2px solid #df1c1c;
+}
+
+/* Discover Section */
+
+.discover {
+    width: 1294px;
+    height: 492px;
+    margin-left: 78px;
+    margin-top: 131px;
+    box-shadow: 18.7px 24.8px 43px 0 rgba(0, 0, 0, 0.17);
+}
+
+.discover_left {
+    width: 507px;
+    height: 492px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 54px;
+}
+
+.discover__title {
+    color: #3b3b3b;
+    font-size: 29.2px;
+    letter-spacing: 1.57;
+    line-height: 1.57;
+    margin-top: 63px;
+}
+
+.discover__subtitle {
+    font-size: 41.7px;
+    line-height: 1.1;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+
+.discover__text {
+    font-size: 20.8px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.6;
+    color: #3b3b3b;
+    margin-top: 40px;
+}
+
+.discover__button {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-top: 56px;
+    background-color: #ffc135;
+}
+
+.discover__button:nth-child(n+5){
+    background-color: #dddddd;
+}
+
+.discover__button:hover {
+    background-color: #ffc135;
+    cursor: pointer;
+}
+
+.discover_right {
+  width: 730px;  
+  height: 492px;
+
+  display: inline-block;
+}
+
+.discover__img {
+    width: 659px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+/* Reservation Section */
+
+.reservation {
+    position: relative;
+}
+
+.reservation__title {
+    font-size: 29.2px;
+    text-transform: uppercase;
+    line-height: 1.57;
+    letter-spacing: 1.75px;
+    text-align: center;
+    margin-top: 132px;
+}
+
+.reservation__subtitle {
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    line-height: 0.92;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reservation__form {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 89px;
+}
+
+.reservation__form__input {
+    width: 379px;
+    height: 65px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+    margin-left: 25px;
+    margin-bottom: 27px;
+    font-size: 20.8px;
+    line-height: 2.2;
+    color: #3b3b3b;
+    padding-left: 23px;
+}
+
+.reservation__form__input:last-child {
+    background-color: #df1c1c;
+    color: #ffffff;
+    font-family: 'Alfa Slab One', cursive;
+    line-height: 2.2;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.reservation__form__input:last-child:hover{
+    cursor: pointer;
+    color: #df1c1c;
+    border: 2px solid #df1c1c;
+    background: #ffffff;
+}
+
+.reservation__burger-img {
+    width: 210px;
+    position: absolute;
+    bottom: 300px;
+}
+
+.reservation__hotsauce-img {
+    width: 250px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    display: inline-block;
+}
+
+.reservation__burgerplate-img {
+    position: absolute;
+    left: 1150px;
+    top: 230px;
+    display: inline-block;
+}
+
+.footer {
+    width: 1326px;
+    height: 525px;
+    margin: 0 auto;
+    margin-top: 177px;
+    background-image: url(/images/section-F-BurgerFooter.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 66px;
+}
+
+.footer__background-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1326px;
+    height: 525px;
+    
+}
+
+.footer__info {
+    color: #ffffff
+}
+
+.footer__container__left {
+    height: 410px;
+    width: 512px;
+    margin-left: 43px;
+    display: inline-block;
+}
+
+.footer__logo {
+    margin-top: 84px;
+}
+
+.footer__logo__img {
+    height: 90px;
+    display: inline-block;
+    outline: none;
+    border: none;
+}
+
+.footer__logo__text {
+    display: inline-block;
+    width: 284px;
+    font-size: 60px;
+    vertical-align: top;
+    margin-top: 28px;
+    margin-left: 35px;
+}
+
+.footer__description {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16.7px;
+    line-height: 1.5;
+    margin-top: 48px;
+}
+
+.footer__copyright {
+    font-size: 16.7px;
+    margin-top: 152px;
+}
+
+.footer__container__right {
+    height: 261px;
+    width: 393px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 238px;
+    margin-left: 348px;
+}
+
+.footer__location-img {
+    height: 35px;
+    display: inline-block;
+}
+
+.footer__location__text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20.8px;
+    line-height: 1.8;
+    margin-left: 34px;
+}
+
+.footer_email-img{
+    margin-top: 17px;
+    height: 35px;
+    display: inline-block;
+}
+
+.footer__email__text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20.8px;
+    line-height: 1.8;
+    margin-top: 12px;
+    margin-left: 34px;
+}
+
+.footer__email__text a:link{
+    color: white;
+}
+
+.footer__social-media {
+    margin-left: 230px;
+    margin-top: 140px;
+}
+
+.footer__social-media__icons {
+    width: 29px;
+}
+
+.footer__social-media a:nth-child(n+2){
+    margin-left: 12px;
 }
