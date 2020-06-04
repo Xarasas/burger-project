@@ -32,8 +32,8 @@
             </nav>
         </header>
         <p class="main-promo__slogan">It is a good time for the great taste of burgers</p>
-        <h1 class="main-promo__title">burger</h1>
-        <p class="main-promo__subtitle">week</p>
+        <h1 class="main-promo__title main-promo__text-format">burger</h1>
+        <p class="main-promo__subtitle main-promo__text-format">week</p>
         <div class="price-circle__outer">
             <div class="price-circle__inner">
                 <p class="price-circle__dollar">$5<span class="price-circle__cent">.49</span>
@@ -46,11 +46,11 @@
         <div class="main-promo__glow-img"></div>
     </section>
     <section class="burgerCards">
-        <div class="burgerCard_left">
+        <div class="burgerCard_left burgerCard_format">
             <p class="burgerCards__title burgerCard_left__text">try it today</p>
             <p class="burgerCards__subtitle burgerCard_left__text">most popular burger</p>
         </div>
-        <div class="burgerCard_right">
+        <div class="burgerCard_right burgerCard_format">
             <div class="burgerCard_top">
                 <p class="burgerCards__title burgerCard_right__text">try it today</p>
                 <p class="burgerCards__subtitle burgerCard_right__text">more fun</p>
@@ -67,7 +67,7 @@
     </section>
     <section class="burgerInformation">
         <h2 class="burgerInformation__subtitle">choose & enjoy</h2>
-        <p class="burgerInformation__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+        <p class="burgerInformation__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
         <div class="burgerInformation__tile">
             <img class="burgerInformation__tile-img" src="/images/section-A-burger.png" alt="burger-img">
             <h3 class="burgerInformation__tile-title">Lorem Ipsum Dolor</h3>
@@ -103,7 +103,7 @@
     <section class="reservation">
         <h2 class="reservation__title">reservation</h2>
         <h3 class="reservation__subtitle">book your table</h3>
-        <form class="reservation__form">
+        <form class="reservation__form" action="#" method="POST">
             <label for="name"></label>
             <input class="reservation__form__input" type="text" id="name" name="name" placeholder="NAME">
             <label for="email"></label>
@@ -111,7 +111,7 @@
             <label for="date"></label>
             <input class="reservation__form__input" type="date" id="date" name="date" placeholder="DATE">
             <label for="time"></label>
-            <input class="reservation__form__input" type="time" id="time" name="time" placeholder="TIME"><br>
+            <input class="reservation__form__input" type="time" id="time" name="time" placeholder="TIME" value="11:00"><br>
             <label for="people"></label>
             <input class="reservation__form__input" type="number" id="people" name="people" placeholder="PEOPLE">
             <label for="submit"></label>
@@ -130,7 +130,7 @@
                         <h2 class="footer__logo__text">burger house</h2>
                     </div>
                     <p class="footer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viver ra maecenas accumsan lacus vel facilisis. </p>
-                    <p class="footer__copyright">company name 2020. all rights reserved.</p>
+                    <p class="footer__copyright">© company name 2020. all rights reserved.</p>
                 </div>
                 <div class="footer__container__right">
                     <img class="footer__location-img" src="/icons/location.svg" alt="location pin img">

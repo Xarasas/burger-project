@@ -47,7 +47,7 @@ a:hover{
 
 .navbar__logo__icon {
     height: 58px;
-    border: none;
+    display: inline-block;
 }
 
 .navbar__logo__text {
@@ -55,7 +55,7 @@ a:hover{
     bottom: 10px;
     position: relative;
     display: inline-block;
-    width: 180px;
+    width: 183px;
     height: 30px;
     font-size: 40px;
 }
@@ -91,7 +91,6 @@ a:hover{
     list-style: none;
     position: relative;
     left:905px;
-    right: 56px;
     top: 34px;
     z-index: 1;
 }
@@ -100,8 +99,7 @@ a:hover{
     display: inline-block;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-left: 35px;
-    padding-right: 3px;
+    padding-left: 37px;
     font-size: 20px;
 }
 
@@ -118,24 +116,22 @@ a:hover{
 }
 
 .main-promo__title {
-    font-family: 'Alfa Slab One', cursive;
-    text-transform: uppercase;
     font-size: 114.5px;
-    text-shadow: 3.9px 4.5px #ffe9bc;
-    position: relative;
-    left: 61px;
     top: 170px;
     z-index: 1;
 }
 
 .main-promo__subtitle {
+    font-size: 56.5px;
+    top: 142px;
+}
+
+.main-promo__text-format {
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
-    font-size: 56.5px;
-    position: relative;
     text-shadow: 3.9px 4.5px #ffe9bc;
+    position: relative;
     left: 61px;
-    top: 142px;
 }
 
 .price-circle__outer {
@@ -231,20 +227,20 @@ a:hover{
 }
 
 .burgerCard_left {
-    width: 596px;
-    height: 420px;
     background-image: url(/images/secion-B-card1.jpeg);
     background-size: contain;
-    border-radius: 10px;
-    display: inline-block;
 }
 
 .burgerCard_right {
+    margin-left: 42px;
+    vertical-align: top;
+}
+
+.burgerCard_format {
     width: 596px;
     height: 420px;
     display: inline-block;
-    margin-left: 42px;
-    vertical-align: top;
+    border-radius: 10px;
 }
 
 .burgerCard_top {
@@ -260,6 +256,7 @@ a:hover{
     margin-top: 36px;
     background-image: url(/images/section-b-card3.jpg);
     background-size: cover;
+    background-position: bottom;
     border-radius: 10px;
 }
 
@@ -275,6 +272,11 @@ a:hover{
     margin-left: 611px;
     transform: translateX(-50%);
     outline: none;
+}
+
+.burgerCards__button:hover {
+    cursor: pointer;
+    color:  #ffffff;
 }
 
 .burgerCards__title {
@@ -298,11 +300,6 @@ a:hover{
     margin-left: 24px;
 }
 
-.burgerCards__button:hover {
-    cursor: pointer;
-    color:  #ffffff;
-}
-
 /* Burger Information Section*/
 
 .burgerInformation {
@@ -316,7 +313,7 @@ a:hover{
     text-transform: uppercase;
 }
 
-.burgerInformation__text {
+.burgerInformation__description {
     font-family: 'Montserrat', sans-serif;
     font-size: 16.7px;
     text-align: center;
@@ -436,7 +433,6 @@ a:hover{
 .discover_right {
   width: 730px;  
   height: 492px;
-
   display: inline-block;
 }
 
@@ -491,6 +487,10 @@ a:hover{
     padding-left: 23px;
 }
 
+.reservation__form__input::placeholder{
+    color:#3b3b3b
+}
+
 .reservation__form__input:last-child {
     background-color: #df1c1c;
     color: #ffffff;
@@ -519,14 +519,12 @@ a:hover{
     position: absolute;
     left: 100px;
     bottom: 10px;
-    display: inline-block;
 }
 
 .reservation__burgerplate-img {
     position: absolute;
     left: 1150px;
     top: 230px;
-    display: inline-block;
 }
 
 .footer {
@@ -544,7 +542,6 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.7);
     width: 1326px;
     height: 525px;
-    
 }
 
 .footer__info {
